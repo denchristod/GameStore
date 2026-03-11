@@ -1,7 +1,7 @@
 GET http://localhost:5077/games
 
 ###
-SGET http://localhost:5077/games/2
+GET http://localhost:5077/games/2
 
 ###
 POST http://localhost:5077/games
