@@ -1,2 +1,2 @@
 # GameStore
-ASP.NET Core learning project
+ASP.NET Core learning project (WIP)
