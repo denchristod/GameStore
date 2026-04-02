@@ -1,3 +1,9 @@
+# Build folders
 bin/
 obj/
 .vs/
+
+# Database files
+*.db
+*.sqlite
+*.mdf
