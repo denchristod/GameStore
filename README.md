@@ -57,5 +57,9 @@ React-based frontend to consume the API and provide a full-stack user experience
 
 ### Run the project
 
+Swagger UI is available when running the application:
+http://localhost:xxxx/swagger
+
 ```bash
 dotnet run
+
