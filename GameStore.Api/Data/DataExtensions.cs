@@ -15,6 +15,10 @@ public static class DataExtensions
     public static void AddGameStoreDb(this WebApplicationBuilder builder)
     {
         var connString = builder.Configuration.GetConnectionString("GameStore");
+
+        // DbContext has a scoped service lifetime
+        // This ensures that a new instance is created per request
+
         builder.Services.AddSqlite<GameStoreContext>(
             connString,
             optionsAction: options => options.UseSeeding((context, _) =>
