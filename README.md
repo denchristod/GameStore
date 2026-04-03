@@ -44,6 +44,11 @@ The application is fully self-contained and uses **SQLite**, automatically creat
 
 ---
 
+## Future Implementations
+React-based frontend to consume the API and provide a full-stack user experience.
+
+---
+
 ## Getting Started
 
 ### Prerequisites
