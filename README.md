@@ -61,5 +61,6 @@ Swagger UI is available when running the application:
 http://localhost:xxxx/swagger
 
 ```bash
+cd GameStore.Api
 dotnet run
 
